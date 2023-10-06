@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@500&display=swap');
+
+html,
+body {
+  height: 90vh;
+  width: 98%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style for the centered content */
+.content {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  font-weight: 700 !important;
+  font-size: large;
+  margin: auto !important;
+  margin: 0 !important;
+}
+
+.bg-image{
+  background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865393.jpg?w=740&t=st=1695364750~exp=1695365350~hmac=b43eb17b49e94ab56d0b5eafa6ab2daf9e8b4f70ec09a19be8864caec41ef845");
+width: 100% !important;
+height: 100vh !important;
+background-repeat: no-repeat;
+}
+
+.bg-img{
+  background-color: rgb(214, 96, 96);
+  height: 100vh;
+}
+.border{
+  box-shadow: 0px 3px 15px 0px lightblue;
+}
+
+
+.button:hover {
+  color: rgb(0, 0, 0) !important;
+  transition: 0.6s;
+}
+
+.button1 {
+  font-weight: 600 !important;
+}
+
+.button1:hover {
+  font-weight: 700 !important;
+  font-size: medium;
+  color: rgb(75, 228, 44);
+  transition: 0.6s;
+}
+
+.head {
+  color: red;
+}
+.button10:hover {
+  color: rgb(23, 30, 131) !important;
+  transition: 0.6s;
+}
+.button10 {
+  font-weight: 700 !important;
+  font-size: medium;
+  color: rgb(28, 121, 207);
+  transition: 0.6s;
+}
+
+/* ----------- */
+
+
